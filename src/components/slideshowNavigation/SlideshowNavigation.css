@@ -1,0 +1,39 @@
+.slideNav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between; /* Distributes child elements evenly across the entire width */
+    width: 100%; /* Ensures the navigation takes the full width */
+    margin-top: 6vw
+}
+
+.arrowButton {
+    background: none;
+    border: none;
+    font-size: 1.5em;
+    cursor: pointer;
+    transition: color 0.3s;
+}
+
+.arrowButton:hover {
+    color: #555;
+}
+
+.circleContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1; /* Allows the circle container to take up the available space between the arrows */
+}
+
+.circle {
+    width: 1vw;
+    height: 1vw;
+    border-radius: 50%;
+    margin: 0 2vw;
+    background-color: #e0e0e0;
+    transition: background-color 0.3s;
+}
+
+.circle.active {
+    background-color: #555;
+}

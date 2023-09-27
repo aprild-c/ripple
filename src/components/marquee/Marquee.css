@@ -1,0 +1,29 @@
+.strip {
+    width: 100%;
+    overflow: hidden;
+    white-space: nowrap;
+    margin: 0;
+    background-color: #222222;
+
+}
+
+.strip h1 {
+    display: inline-block;
+    font-family: Montserrat, serif;
+    font-size: 5vw;
+    font-weight: bold;
+    line-height: 7vw;
+    letter-spacing: 0.03em;
+    color: white;
+    background-color: #222222;
+    animation: strip 10s linear infinite;
+}
+
+@keyframes strip {
+    0% {
+        transform: translateX(0%);
+    }
+    100% {
+        transform: translateX(-25%);
+    }
+}

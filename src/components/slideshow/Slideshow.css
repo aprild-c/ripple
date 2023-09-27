@@ -1,0 +1,38 @@
+.slideShow {
+    width: 100%;
+    padding-top: 5vw;
+}
+
+
+.caption {
+    display: inline-block;
+    vertical-align: top; /* This is the key property */
+    width: calc((99.9%/7)*2);
+    padding: 0 calc((99.9%/7));
+
+}
+
+.caption h1, .caption h2 {
+    line-height: 120%;
+    color: #222222;
+}
+.slideShow img {
+    display: inline-block;
+    vertical-align: top;
+    width: calc((90%/7)*3);
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+    border-bottom-right-radius: 50%;
+}
+
+
+.caption h1 {
+    font-family: MontserratAlternatesBold, serif;
+    font-size: 2.2vw;
+    font-weight: 300;
+}
+
+.caption h2 {
+    font-family: Montserrat, serif;
+    font-size: 1.8vw;
+}

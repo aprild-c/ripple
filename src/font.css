@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'MontserratAlternatesBold';
+    src: local('MontserratAlternatesBold'), url('./fonts/MontserratAlternates-Bold.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'MontserratAlternatesLight';
+    src: local('MontserratAlternatesLight'), url('./fonts/MontserratAlternates-Light.woff') format('woff');
+}

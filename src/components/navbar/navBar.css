@@ -1,0 +1,42 @@
+.navBar{
+    display:flex;
+}
+
+.linksList {
+    width: 100%;
+    padding-left: 56.8%;
+    display:flex;
+    list-style-type: none;
+    justify-content: center;
+    margin: 0;
+}
+
+.tab {
+    color: rgba(34, 34, 34, 1);
+
+
+}
+
+.link:hover {
+    background-color: #D4FF00;
+}
+
+.link {
+    text-decoration: none;
+    justify-content: center;
+    flex: 3;
+    text-align: center;
+    width: 100%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    font-size: 1vw;
+
+    color: rgba(34, 34, 34, 1);
+    background: linear-gradient(to right, black 0.157vw, transparent 0vw) 0 100%;
+    background-repeat: no-repeat;
+    background-size: 10px 50%;
+
+}
+.link:visited {
+    color: rgba(34, 34, 34, 1);
+}

@@ -1,0 +1,16 @@
+.slideButton {
+    background-color: #222222;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    width: min-content;
+    padding: 0.8vw 1.5vw;
+}
+.slideButton a {
+    text-decoration: none;
+    color: #D4FF00;
+    font-size: 1.3vw;
+    font-weight: bold;
+    text-shadow: 1px 0 #D4FF00;
+    white-space: nowrap;
+}

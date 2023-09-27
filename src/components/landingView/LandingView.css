@@ -1,0 +1,67 @@
+.container{
+    display:flex;
+    border: black solid 0.16vw;
+    border-top-left-radius: 7% 12%;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+.box {
+    flex-basis: calc(99.2% / 7);
+    height: 14vw;
+    display: flex;
+
+    border-right: lightgrey solid 0.1vw;
+    border-bottom: lightgrey solid 0.1vw;
+
+}
+
+.box:nth-of-type(7) {
+    border-right: none;
+}
+
+.box:nth-of-type(14) {
+    border-right: none;
+}
+
+.box:nth-of-type(21) {
+    border-right: none;
+}
+.box:nth-of-type(28) {
+    border-right: none;
+}
+.downArrow {
+    width: 99%;
+}
+
+.landingText {
+    position: absolute;
+    top: 21.5vw;
+    left: 16vw;
+    width: 40vw;
+}
+h1 {
+    font-size: 3vw;
+    font-family: MontserratAlternatesBold, serif;
+    line-height: 130%;
+    color: #222222;
+    font-weight: 700;
+
+
+
+}
+
+h2 {
+    font-size: 1.9vw;
+    font-weight: 300;
+    font-family: Montserrat, serif;
+    line-height: 130%;
+    color: #222222;
+
+
+}
+.logo {
+    width: 99.5%;
+    height: 99.5%;
+    /*align-self: end;*/
+}
